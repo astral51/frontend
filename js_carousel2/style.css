@@ -1,0 +1,61 @@
+body{
+	background-color: rgb(202, 202, 202);
+}
+#carousel{
+	position: relative;
+	width: 398px;
+	padding: 10px 40px;
+	background-color: white;
+	border-radius: 20px;
+}  
+.gallery{
+	width: 390px;
+	overflow: hidden;
+}
+.arrow {
+	position: absolute;
+	top: 60px;
+	padding: 0;
+	background: #ddd;
+	border-radius: 15px;
+	border: 1px solid gray;
+	font-size: 24px;
+	line-height: 24px;
+	color: #444;
+	display: block;
+}
+.arrow.prev{
+	left: 10px;
+}
+.arrow.next{
+	right: 10px;
+}
+
+.arrow:focus {
+	outline: none;
+}
+
+.arrow:hover {
+	background: #ccc;
+	cursor: pointer;
+}
+
+ul {
+	height: 130px;
+	width: 9999px;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-size: 0;
+	transition: margin-left 250ms;
+}
+
+ul img {
+	width: 130px;
+	height: 130px;
+	display: block; 
+}
+
+ul li {
+	display: inline-block; 
+}
